@@ -1,0 +1,1444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABC4057E208B46910086557D /* EnumUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABF86188208B3795006425A9 /* EnumUtilities.framework */; };
+		ABF86173208B33E0006425A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86172208B33E0006425A9 /* AppDelegate.swift */; };
+		ABF86175208B33E0006425A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86174208B33E0006425A9 /* ViewController.swift */; };
+		ABF86178208B33E0006425A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF86176208B33E0006425A9 /* Main.storyboard */; };
+		ABF8617A208B33E3006425A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF86179208B33E3006425A9 /* Assets.xcassets */; };
+		ABF8617D208B33E3006425A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF8617B208B33E3006425A9 /* LaunchScreen.storyboard */; };
+		ABFB976A208C4BD80084315B /* Prefectures.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1133142088495A00B0C9C5 /* Prefectures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB976B208C4BE50084315B /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11331C208849C000B0C9C5 /* Prefecture.swift */; };
+		ABFB976C208C4BE50084315B /* PrefectureCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332020884C3800B0C9C5 /* PrefectureCode.swift */; };
+		ABFB976D208C4BE50084315B /* PrefectureName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332220884CD500B0C9C5 /* PrefectureName.swift */; };
+		ABFB977B208C4F420084315B /* Prefectures.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1133142088495A00B0C9C5 /* Prefectures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB977C208C4FC40084315B /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11331C208849C000B0C9C5 /* Prefecture.swift */; };
+		ABFB977D208C4FC40084315B /* PrefectureCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332020884C3800B0C9C5 /* PrefectureCode.swift */; };
+		ABFB977E208C4FC40084315B /* PrefectureName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332220884CD500B0C9C5 /* PrefectureName.swift */; };
+		ABFB978C208C515D0084315B /* Prefectures.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1133142088495A00B0C9C5 /* Prefectures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB978D208C522F0084315B /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11331C208849C000B0C9C5 /* Prefecture.swift */; };
+		ABFB978E208C522F0084315B /* PrefectureCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332020884C3800B0C9C5 /* PrefectureCode.swift */; };
+		ABFB978F208C522F0084315B /* PrefectureName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332220884CD500B0C9C5 /* PrefectureName.swift */; };
+		ABFB979D208C53DB0084315B /* Prefectures.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1133142088495A00B0C9C5 /* Prefectures.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABFB979E208C53FE0084315B /* Prefecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11331C208849C000B0C9C5 /* Prefecture.swift */; };
+		ABFB979F208C53FE0084315B /* PrefectureCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332020884C3800B0C9C5 /* PrefectureCode.swift */; };
+		ABFB97A0208C53FE0084315B /* PrefectureName.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB11332220884CD500B0C9C5 /* PrefectureName.swift */; };
+		ABFB97AC208C57110084315B /* Prefectures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB975D208C4AEC0084315B /* Prefectures.framework */; };
+		ABFB97AD208C57110084315B /* Prefectures.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB975D208C4AEC0084315B /* Prefectures.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ABFB97B7208C5CE00084315B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFB97B5208C5CE00084315B /* Interface.storyboard */; };
+		ABFB97B9208C5CE10084315B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFB97B8208C5CE10084315B /* Assets.xcassets */; };
+		ABFB97C0208C5CE10084315B /* ExampleWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ABFB97BF208C5CE10084315B /* ExampleWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ABFB97C5208C5CE10084315B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB97C4208C5CE10084315B /* InterfaceController.swift */; };
+		ABFB97C7208C5CE10084315B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB97C6208C5CE10084315B /* ExtensionDelegate.swift */; };
+		ABFB97C9208C5CE10084315B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABFB97C8208C5CE10084315B /* NotificationController.swift */; };
+		ABFB97CB208C5CE20084315B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFB97CA208C5CE20084315B /* Assets.xcassets */; };
+		ABFB97D1208C5CE20084315B /* ExampleWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = ABFB97B3208C5CE00084315B /* ExampleWatch.app */; };
+		ABFB97E9208C696B0084315B /* Prefectures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB9773208C4E590084315B /* Prefectures.framework */; };
+		ABFB97EA208C69850084315B /* EnumUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB97DF208C65860084315B /* EnumUtilities.framework */; };
+		ABFB9805208C89BF0084315B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABFB9803208C89BF0084315B /* Main.storyboard */; };
+		ABFB9807208C89C10084315B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABFB9806208C89C10084315B /* Assets.xcassets */; };
+		ABFB980D208C8ADE0084315B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86172208B33E0006425A9 /* AppDelegate.swift */; };
+		ABFB980E208C8AE20084315B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABF86174208B33E0006425A9 /* ViewController.swift */; };
+		ABFB980F208C8AF80084315B /* Prefectures.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB9784208C50FA0084315B /* Prefectures.framework */; };
+		ABFB9811208C8B060084315B /* EnumUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABFB9810208C8B060084315B /* EnumUtilities.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABFB97AE208C57110084315B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1133082088495A00B0C9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFB975C208C4AEC0084315B;
+			remoteInfo = "Prefectures-iOS";
+		};
+		ABFB97C1208C5CE10084315B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1133082088495A00B0C9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFB97BE208C5CE10084315B;
+			remoteInfo = "ExampleWatch Extension";
+		};
+		ABFB97CE208C5CE20084315B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB1133082088495A00B0C9C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABFB97B2208C5CE00084315B;
+			remoteInfo = ExampleWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABFB97B0208C57120084315B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				ABFB97AD208C57110084315B /* Prefectures.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97D0208C5CE20084315B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				ABFB97D1208C5CE20084315B /* ExampleWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97D7208C5CE20084315B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ABFB97C0208C5CE10084315B /* ExampleWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB1133142088495A00B0C9C5 /* Prefectures.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefectures.h; sourceTree = "<group>"; };
+		AB1133152088495A00B0C9C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB11331C208849C000B0C9C5 /* Prefecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prefecture.swift; sourceTree = "<group>"; };
+		AB11332020884C3800B0C9C5 /* PrefectureCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureCode.swift; sourceTree = "<group>"; };
+		AB11332220884CD500B0C9C5 /* PrefectureName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefectureName.swift; sourceTree = "<group>"; };
+		ABF86170208B33E0006425A9 /* Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Examples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF86172208B33E0006425A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABF86174208B33E0006425A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABF86177208B33E0006425A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF86179208B33E3006425A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF8617C208B33E3006425A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF8617E208B33E3006425A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF86188208B3795006425A9 /* EnumUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumUtilities.framework; path = Carthage/Build/iOS/EnumUtilities.framework; sourceTree = "<group>"; };
+		ABFB975D208C4AEC0084315B /* Prefectures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prefectures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB9773208C4E590084315B /* Prefectures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prefectures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB9784208C50FA0084315B /* Prefectures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prefectures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB9795208C529A0084315B /* Prefectures.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Prefectures.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB97B3208C5CE00084315B /* ExampleWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB97B6208C5CE00084315B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		ABFB97B8208C5CE10084315B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFB97BA208C5CE10084315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFB97BF208C5CE10084315B /* ExampleWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ExampleWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB97C4208C5CE10084315B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		ABFB97C6208C5CE10084315B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		ABFB97C8208C5CE10084315B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		ABFB97CA208C5CE20084315B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFB97CC208C5CE20084315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFB97CD208C5CE20084315B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		ABFB97DF208C65860084315B /* EnumUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumUtilities.framework; path = Carthage/Build/watchOS/EnumUtilities.framework; sourceTree = "<group>"; };
+		ABFB97FD208C89BF0084315B /* ExampleTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABFB9804208C89BF0084315B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABFB9806208C89C10084315B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABFB9808208C89C10084315B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABFB9810208C8B060084315B /* EnumUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EnumUtilities.framework; path = Carthage/Build/tvOS/EnumUtilities.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF8616D208B33E0006425A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABC4057E208B46910086557D /* EnumUtilities.framework in Frameworks */,
+				ABFB97AC208C57110084315B /* Prefectures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9759208C4AEC0084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB976F208C4E590084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9780208C50FA0084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9791208C529A0084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97BC208C5CE10084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB97EA208C69850084315B /* EnumUtilities.framework in Frameworks */,
+				ABFB97E9208C696B0084315B /* Prefectures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97DD208C63E70084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97FA208C89BF0084315B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB9811208C8B060084315B /* EnumUtilities.framework in Frameworks */,
+				ABFB980F208C8AF80084315B /* Prefectures.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB1133072088495A00B0C9C5 = {
+			isa = PBXGroup;
+			children = (
+				ABF86171208B33E0006425A9 /* Examples */,
+				ABFB97FE208C89BF0084315B /* ExampleTV */,
+				ABFB97B4208C5CE00084315B /* ExampleWatch */,
+				ABFB97C3208C5CE10084315B /* ExampleWatch Extension */,
+				ABF86187208B3795006425A9 /* Frameworks */,
+				AB1133132088495A00B0C9C5 /* Prefectures */,
+				AB1133122088495A00B0C9C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB1133122088495A00B0C9C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF86170208B33E0006425A9 /* Examples.app */,
+				ABFB97FD208C89BF0084315B /* ExampleTV.app */,
+				ABFB97B3208C5CE00084315B /* ExampleWatch.app */,
+				ABFB97BF208C5CE10084315B /* ExampleWatch Extension.appex */,
+				ABFB9773208C4E590084315B /* Prefectures.framework */,
+				ABFB9784208C50FA0084315B /* Prefectures.framework */,
+				ABFB9795208C529A0084315B /* Prefectures.framework */,
+				ABFB975D208C4AEC0084315B /* Prefectures.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1133132088495A00B0C9C5 /* Prefectures */ = {
+			isa = PBXGroup;
+			children = (
+				AB1133152088495A00B0C9C5 /* Info.plist */,
+				AB1133142088495A00B0C9C5 /* Prefectures.h */,
+				ABC5C9BE208AEA0B0085E3EF /* Sources */,
+			);
+			path = Prefectures;
+			sourceTree = "<group>";
+		};
+		ABC40580208B49A30086557D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABF86172208B33E0006425A9 /* AppDelegate.swift */,
+				ABF86174208B33E0006425A9 /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ABC40581208B49B90086557D /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				ABF8617B208B33E3006425A9 /* LaunchScreen.storyboard */,
+				ABF86176208B33E0006425A9 /* Main.storyboard */,
+			);
+			path = Resouces;
+			sourceTree = "<group>";
+		};
+		ABC5C9BE208AEA0B0085E3EF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AB11331C208849C000B0C9C5 /* Prefecture.swift */,
+				AB11332020884C3800B0C9C5 /* PrefectureCode.swift */,
+				AB11332220884CD500B0C9C5 /* PrefectureName.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ABF86171208B33E0006425A9 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				ABF86179208B33E3006425A9 /* Assets.xcassets */,
+				ABF8617E208B33E3006425A9 /* Info.plist */,
+				ABC40581208B49B90086557D /* Resouces */,
+				ABC40580208B49A30086557D /* Sources */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
+		ABF86187208B3795006425A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB9810208C8B060084315B /* EnumUtilities.framework */,
+				ABFB97DF208C65860084315B /* EnumUtilities.framework */,
+				ABF86188208B3795006425A9 /* EnumUtilities.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABFB97B4208C5CE00084315B /* ExampleWatch */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB97B8208C5CE10084315B /* Assets.xcassets */,
+				ABFB97BA208C5CE10084315B /* Info.plist */,
+				ABFB97B5208C5CE00084315B /* Interface.storyboard */,
+			);
+			path = ExampleWatch;
+			sourceTree = "<group>";
+		};
+		ABFB97C3208C5CE10084315B /* ExampleWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB97CA208C5CE20084315B /* Assets.xcassets */,
+				ABFB97CC208C5CE20084315B /* Info.plist */,
+				ABFB97CD208C5CE20084315B /* PushNotificationPayload.apns */,
+				ABFB97EB208C6ECE0084315B /* Sources */,
+			);
+			path = "ExampleWatch Extension";
+			sourceTree = "<group>";
+		};
+		ABFB97EB208C6ECE0084315B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB97C6208C5CE10084315B /* ExtensionDelegate.swift */,
+				ABFB97C4208C5CE10084315B /* InterfaceController.swift */,
+				ABFB97C8208C5CE10084315B /* NotificationController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		ABFB97FE208C89BF0084315B /* ExampleTV */ = {
+			isa = PBXGroup;
+			children = (
+				ABFB9806208C89C10084315B /* Assets.xcassets */,
+				ABFB9808208C89C10084315B /* Info.plist */,
+				ABFB9803208C89BF0084315B /* Main.storyboard */,
+			);
+			path = ExampleTV;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		ABFB975A208C4AEC0084315B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB976A208C4BD80084315B /* Prefectures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9770208C4E590084315B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB977B208C4F420084315B /* Prefectures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9781208C50FA0084315B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB978C208C515D0084315B /* Prefectures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9792208C529A0084315B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB979D208C53DB0084315B /* Prefectures.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		ABF8616F208B33E0006425A9 /* Examples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF86181208B33E3006425A9 /* Build configuration list for PBXNativeTarget "Examples" */;
+			buildPhases = (
+				ABF8616C208B33E0006425A9 /* Sources */,
+				ABF8616D208B33E0006425A9 /* Frameworks */,
+				ABF8616E208B33E0006425A9 /* Resources */,
+				ABFB97B0208C57120084315B /* Embed Frameworks */,
+				ABC4057F208B469D0086557D /* Run Script [copy-frameworks] */,
+				ABFB97D0208C5CE20084315B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFB97CF208C5CE20084315B /* PBXTargetDependency */,
+				ABFB97AF208C57110084315B /* PBXTargetDependency */,
+			);
+			name = Examples;
+			productName = Examples;
+			productReference = ABF86170208B33E0006425A9 /* Examples.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABFB975C208C4AEC0084315B /* Prefectures-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB9766208C4AEC0084315B /* Build configuration list for PBXNativeTarget "Prefectures-iOS" */;
+			buildPhases = (
+				ABFB9758208C4AEC0084315B /* Sources */,
+				ABFB9759208C4AEC0084315B /* Frameworks */,
+				ABFB975A208C4AEC0084315B /* Headers */,
+				ABFB975B208C4AEC0084315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prefectures-iOS";
+			productName = "Prefectures-iOS";
+			productReference = ABFB975D208C4AEC0084315B /* Prefectures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABFB9772208C4E590084315B /* Prefectures-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB9778208C4E590084315B /* Build configuration list for PBXNativeTarget "Prefectures-watchOS" */;
+			buildPhases = (
+				ABFB976E208C4E590084315B /* Sources */,
+				ABFB976F208C4E590084315B /* Frameworks */,
+				ABFB9770208C4E590084315B /* Headers */,
+				ABFB9771208C4E590084315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prefectures-watchOS";
+			productName = "Prefectures-watchOS";
+			productReference = ABFB9773208C4E590084315B /* Prefectures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABFB9783208C50FA0084315B /* Prefectures-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB9789208C50FA0084315B /* Build configuration list for PBXNativeTarget "Prefectures-tvOS" */;
+			buildPhases = (
+				ABFB977F208C50FA0084315B /* Sources */,
+				ABFB9780208C50FA0084315B /* Frameworks */,
+				ABFB9781208C50FA0084315B /* Headers */,
+				ABFB9782208C50FA0084315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prefectures-tvOS";
+			productName = "Prefectures-tvOS";
+			productReference = ABFB9784208C50FA0084315B /* Prefectures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABFB9794208C529A0084315B /* Prefectures-macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB979A208C529A0084315B /* Build configuration list for PBXNativeTarget "Prefectures-macOS" */;
+			buildPhases = (
+				ABFB9790208C529A0084315B /* Sources */,
+				ABFB9791208C529A0084315B /* Frameworks */,
+				ABFB9792208C529A0084315B /* Headers */,
+				ABFB9793208C529A0084315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Prefectures-macOS";
+			productName = "Prefectures-macOS";
+			productReference = ABFB9795208C529A0084315B /* Prefectures.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ABFB97B2208C5CE00084315B /* ExampleWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB97D8208C5CE20084315B /* Build configuration list for PBXNativeTarget "ExampleWatch" */;
+			buildPhases = (
+				ABFB97B1208C5CE00084315B /* Resources */,
+				ABFB97D7208C5CE20084315B /* Embed App Extensions */,
+				ABFB97DD208C63E70084315B /* Frameworks */,
+				ABFB97E6208C67120084315B /* Run Script [copy-frameworks] */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABFB97C2208C5CE10084315B /* PBXTargetDependency */,
+			);
+			name = ExampleWatch;
+			productName = ExampleWatch;
+			productReference = ABFB97B3208C5CE00084315B /* ExampleWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		ABFB97BE208C5CE10084315B /* ExampleWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB97D6208C5CE20084315B /* Build configuration list for PBXNativeTarget "ExampleWatch Extension" */;
+			buildPhases = (
+				ABFB97BB208C5CE10084315B /* Sources */,
+				ABFB97BC208C5CE10084315B /* Frameworks */,
+				ABFB97BD208C5CE10084315B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ExampleWatch Extension";
+			productName = "ExampleWatch Extension";
+			productReference = ABFB97BF208C5CE10084315B /* ExampleWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		ABFB97FC208C89BF0084315B /* ExampleTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABFB9809208C89C10084315B /* Build configuration list for PBXNativeTarget "ExampleTV" */;
+			buildPhases = (
+				ABFB97F9208C89BF0084315B /* Sources */,
+				ABFB97FA208C89BF0084315B /* Frameworks */,
+				ABFB97FB208C89BF0084315B /* Resources */,
+				ABFB9812208C8B8D0084315B /* Run Script [copy-frameworks] */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExampleTV;
+			productName = ExampleTV;
+			productReference = ABFB97FD208C89BF0084315B /* ExampleTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB1133082088495A00B0C9C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					ABF8616F208B33E0006425A9 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB975C208C4AEC0084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB9772208C4E590084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB9783208C50FA0084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB9794208C529A0084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB97B2208C5CE00084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB97BE208C5CE10084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					ABFB97FC208C89BF0084315B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = AB11330B2088495A00B0C9C5 /* Build configuration list for PBXProject "Prefectures" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB1133072088495A00B0C9C5;
+			productRefGroup = AB1133122088495A00B0C9C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF8616F208B33E0006425A9 /* Examples */,
+				ABFB97FC208C89BF0084315B /* ExampleTV */,
+				ABFB97B2208C5CE00084315B /* ExampleWatch */,
+				ABFB97BE208C5CE10084315B /* ExampleWatch Extension */,
+				ABFB975C208C4AEC0084315B /* Prefectures-iOS */,
+				ABFB9794208C529A0084315B /* Prefectures-macOS */,
+				ABFB9783208C50FA0084315B /* Prefectures-tvOS */,
+				ABFB9772208C4E590084315B /* Prefectures-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF8616E208B33E0006425A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF8617A208B33E3006425A9 /* Assets.xcassets in Resources */,
+				ABF8617D208B33E3006425A9 /* LaunchScreen.storyboard in Resources */,
+				ABF86178208B33E0006425A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB975B208C4AEC0084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9771208C4E590084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9782208C50FA0084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9793208C529A0084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97B1208C5CE00084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB97B9208C5CE10084315B /* Assets.xcassets in Resources */,
+				ABFB97B7208C5CE00084315B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97BD208C5CE10084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB97CB208C5CE20084315B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97FB208C89BF0084315B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB9807208C89C10084315B /* Assets.xcassets in Resources */,
+				ABFB9805208C89BF0084315B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ABC4057F208B469D0086557D /* Run Script [copy-frameworks] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/EnumUtilities.framework",
+			);
+			name = "Run Script [copy-frameworks]";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EnumUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		ABFB97E6208C67120084315B /* Run Script [copy-frameworks] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/watchOS/EnumUtilities.framework",
+			);
+			name = "Run Script [copy-frameworks]";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EnumUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+		ABFB9812208C8B8D0084315B /* Run Script [copy-frameworks] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/tvOS/EnumUtilities.framework",
+			);
+			name = "Run Script [copy-frameworks]";
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/EnumUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF8616C208B33E0006425A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF86173208B33E0006425A9 /* AppDelegate.swift in Sources */,
+				ABF86175208B33E0006425A9 /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9758208C4AEC0084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB976B208C4BE50084315B /* Prefecture.swift in Sources */,
+				ABFB976C208C4BE50084315B /* PrefectureCode.swift in Sources */,
+				ABFB976D208C4BE50084315B /* PrefectureName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB976E208C4E590084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB977C208C4FC40084315B /* Prefecture.swift in Sources */,
+				ABFB977D208C4FC40084315B /* PrefectureCode.swift in Sources */,
+				ABFB977E208C4FC40084315B /* PrefectureName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB977F208C50FA0084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB978D208C522F0084315B /* Prefecture.swift in Sources */,
+				ABFB978E208C522F0084315B /* PrefectureCode.swift in Sources */,
+				ABFB978F208C522F0084315B /* PrefectureName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB9790208C529A0084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB979E208C53FE0084315B /* Prefecture.swift in Sources */,
+				ABFB979F208C53FE0084315B /* PrefectureCode.swift in Sources */,
+				ABFB97A0208C53FE0084315B /* PrefectureName.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97BB208C5CE10084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB97C7208C5CE10084315B /* ExtensionDelegate.swift in Sources */,
+				ABFB97C5208C5CE10084315B /* InterfaceController.swift in Sources */,
+				ABFB97C9208C5CE10084315B /* NotificationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABFB97F9208C89BF0084315B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABFB980D208C8ADE0084315B /* AppDelegate.swift in Sources */,
+				ABFB980E208C8AE20084315B /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABFB97AF208C57110084315B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFB975C208C4AEC0084315B /* Prefectures-iOS */;
+			targetProxy = ABFB97AE208C57110084315B /* PBXContainerItemProxy */;
+		};
+		ABFB97C2208C5CE10084315B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFB97BE208C5CE10084315B /* ExampleWatch Extension */;
+			targetProxy = ABFB97C1208C5CE10084315B /* PBXContainerItemProxy */;
+		};
+		ABFB97CF208C5CE20084315B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABFB97B2208C5CE00084315B /* ExampleWatch */;
+			targetProxy = ABFB97CE208C5CE20084315B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABF86176208B33E0006425A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF86177208B33E0006425A9 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		ABF8617B208B33E3006425A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF8617C208B33E3006425A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		ABFB97B5208C5CE00084315B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFB97B6208C5CE00084315B /* Base */,
+			);
+			name = Interface.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		ABFB9803208C89BF0084315B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABFB9804208C89BF0084315B /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB1133172088495A00B0C9C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AB1133182088495A00B0C9C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ABF8617F208B33E3006425A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Debug;
+		};
+		ABF86180208B33E3006425A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_INJECT_BASE_ENTITLEMENTS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Examples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "$(ARCHS_STANDARD)";
+			};
+			name = Release;
+		};
+		ABFB9767208C4AEC0084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.ios;
+				PRODUCT_NAME = Prefectures;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABFB9768208C4AEC0084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/iOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.ios;
+				PRODUCT_NAME = Prefectures;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABFB9779208C4E590084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/watchOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.watchos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		ABFB977A208C4E590084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/watchOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.watchos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		ABFB978A208C50FA0084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/tvOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.tvos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		ABFB978B208C50FA0084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/tvOS/";
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.tvos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		ABFB979B208C529A0084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac/";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.macos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		ABFB979C208C529A0084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/Carthage/Build/Mac/";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Prefectures/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.macos;
+				PRODUCT_NAME = Prefectures;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = macosx;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		ABFB97D2208C5CE20084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				IBSC_MODULE = ExampleWatch_Extension;
+				INFOPLIST_FILE = ExampleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		ABFB97D3208C5CE20084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				IBSC_MODULE = ExampleWatch_Extension;
+				INFOPLIST_FILE = ExampleWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		ABFB97D4208C5CE20084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "ExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Debug;
+		};
+		ABFB97D5208C5CE20084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/watchOS",
+				);
+				INFOPLIST_FILE = "ExampleWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchsimulator watchos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
+			};
+			name = Release;
+		};
+		ABFB980A208C89C10084315B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		ABFB980B208C89C10084315B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/tvOS",
+				);
+				INFOPLIST_FILE = ExampleTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.prefectures.examples;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SUPPORTED_PLATFORMS = "appletvsimulator appletvos";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB11330B2088495A00B0C9C5 /* Build configuration list for PBXProject "Prefectures" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB1133172088495A00B0C9C5 /* Debug */,
+				AB1133182088495A00B0C9C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF86181208B33E3006425A9 /* Build configuration list for PBXNativeTarget "Examples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF8617F208B33E3006425A9 /* Debug */,
+				ABF86180208B33E3006425A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB9766208C4AEC0084315B /* Build configuration list for PBXNativeTarget "Prefectures-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB9767208C4AEC0084315B /* Debug */,
+				ABFB9768208C4AEC0084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB9778208C4E590084315B /* Build configuration list for PBXNativeTarget "Prefectures-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB9779208C4E590084315B /* Debug */,
+				ABFB977A208C4E590084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB9789208C50FA0084315B /* Build configuration list for PBXNativeTarget "Prefectures-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB978A208C50FA0084315B /* Debug */,
+				ABFB978B208C50FA0084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB979A208C529A0084315B /* Build configuration list for PBXNativeTarget "Prefectures-macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB979B208C529A0084315B /* Debug */,
+				ABFB979C208C529A0084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB97D6208C5CE20084315B /* Build configuration list for PBXNativeTarget "ExampleWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB97D4208C5CE20084315B /* Debug */,
+				ABFB97D5208C5CE20084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB97D8208C5CE20084315B /* Build configuration list for PBXNativeTarget "ExampleWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB97D2208C5CE20084315B /* Debug */,
+				ABFB97D3208C5CE20084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABFB9809208C89C10084315B /* Build configuration list for PBXNativeTarget "ExampleTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABFB980A208C89C10084315B /* Debug */,
+				ABFB980B208C89C10084315B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB1133082088495A00B0C9C5 /* Project object */;
+}
